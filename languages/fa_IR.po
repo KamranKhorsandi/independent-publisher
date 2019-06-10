@@ -1,0 +1,600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Independent Publisher\n"
+"POT-Creation-Date: 2019-06-09 18:33+0430\n"
+"PO-Revision-Date: 2019-06-10 11:13+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوپس! صفحه ای پیدا نشد."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:29 page_archive-template.php:33
+msgid "Most Used Categories"
+msgstr "بیشترین دسته های مورد استفاده"
+
+#. translators: %1$s: smilie
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "سعی کنید در بایگانی ماهانه نگاه کنید. %1$s"
+
+#: archive.php:50
+msgid "Asides"
+msgstr "حاشیه‌ها"
+
+#: archive.php:52
+msgid "Galleries"
+msgstr "گالری ها"
+
+#: archive.php:54
+msgid "Images"
+msgstr "تصاویر"
+
+#: archive.php:56
+msgid "Videos"
+msgstr "ویدیوها"
+
+#: archive.php:58
+msgid "Quotes"
+msgstr "نقل قول ها"
+
+#: archive.php:60
+msgid "Links"
+msgstr "پیوندها"
+
+#: archive.php:62
+msgid "Statuses"
+msgstr "وضعیت ها"
+
+#: archive.php:64
+msgid "Audios"
+msgstr "صداها"
+
+#: archive.php:66
+msgid "Chats"
+msgstr "گفتگو ها"
+
+#: archive.php:68 sidebar.php:21
+msgid "Archives"
+msgstr "بایگانی"
+
+#: comments.php:40 content.php:124
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "‫%1$s دیدگاه"
+msgstr[1] "1 دیدگاه"
+
+#: comments.php:49 comments.php:70
+msgid "Comment navigation"
+msgstr "ناوبری دیدگاه ها"
+
+#: comments.php:51 comments.php:72
+msgid "&larr; Older Comments"
+msgstr "&larr; دیدگاه های قدیمی"
+
+#: comments.php:52 comments.php:73
+msgid "Newer Comments &rarr;"
+msgstr "&rarr; دیدگاه های جدید"
+
+#: comments.php:83
+msgid "Comments are closed."
+msgstr "دیدگاه ها بسته شده است."
+
+#: comments.php:100 content.php:118
+msgid "Webmentions"
+msgstr ""
+
+#: content-none.php:13 no-results.php:14
+msgid "Nothing Found"
+msgstr "موردی یافت نشد"
+
+#: content-none.php:20 no-results.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:24 no-results.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:30 no-results.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:34 content-single.php:65 page_one-column-template.php:46
+msgid "Next page &rarr;"
+msgstr "صفحه بعدی &rarr;"
+
+#: content-page.php:35 content-single.php:66 page_one-column-template.php:47
+msgid "&larr; Previous page"
+msgstr "&larr; صفحه قبلی"
+
+#: content-page.php:41 content-single.php:72 content.php:63
+#: page_one-column-template.php:53
+msgid "Pages:"
+msgstr "برگه ها:"
+
+#: content-page.php:60 content-single.php:93 content.php:127 image.php:129
+#: page_archive-template.php:76 page_one-column-template.php:62
+msgid "Edit"
+msgstr "ویرایش"
+
+#: content.php:118
+msgid "Webmention"
+msgstr ""
+
+#: content.php:124 functions.php:493
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: content.php:124
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: functions.php:121
+msgid "Primary Menu"
+msgstr "فهرست اصلی"
+
+#: functions.php:122
+msgid "Single Posts Menu"
+msgstr "فهرست تک نوشته ها"
+
+#: functions.php:123
+msgid "Social"
+msgstr "شبکه های اجتماعی"
+
+#: functions.php:175
+msgid "Sidebar"
+msgstr "ستون کناری"
+
+#. Template Name of the plugin/theme
+#: functions.php:186
+msgid "Archive Page"
+msgstr "صفحه بایگانی"
+
+#: functions.php:340
+#, php-format
+msgid "%1$s empowered by %2$s"
+msgstr "‫%1$s قدرت گرفته از %2$s"
+
+#: functions.php:389
+msgid "Anonymous"
+msgstr "ناشناس"
+
+#: functions.php:401
+msgid "Reply to"
+msgstr "پاسخ دادن به"
+
+#: functions.php:434
+#, php-format
+msgid "Leave a Reply for %s"
+msgstr "ارسال پاسخ برای %s"
+
+#: functions.php:435
+msgid "Cancel Reply"
+msgstr "لغو پاسخ"
+
+#: functions.php:436
+msgid "Submit Comment"
+msgstr "ارسال دیدگاه"
+
+#: functions.php:439
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "برای ارسال دیدگاه باید <a href=\"%s\">وارد سیستم شوید</a>."
+
+#: functions.php:444
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"به عنوان <a href=“%1$s”>%2$s</a> وارد شده اید. <a href=“%3$s” title=\" خارج "
+"شدن از این حساب\"> خارج میشوید؟ </a>"
+
+#: functions.php:454
+msgid "Name"
+msgstr "نام"
+
+#: functions.php:459
+msgid "Email"
+msgstr "ایمیل"
+
+#: functions.php:464
+msgid "Website"
+msgstr "وب سایت"
+
+#: functions.php:674
+msgid "Write a Comment"
+msgstr "نوشتن یک دیدگاه"
+
+#: functions.php:961
+msgid "Use as post cover (full-width)"
+msgstr "استفاده به عنوان کاور نوشته (تمام عرض)"
+
+#: functions.php:971
+msgid "Disable post cover (full-width)"
+msgstr "غیر فعال کردن کاور نوشته (عرض کامل)"
+
+#: functions.php:1197
+msgid "in"
+msgstr "در"
+
+#: functions.php:1206
+msgid "by"
+msgstr "توسط"
+
+#: functions.php:1345
+#, php-format
+msgid "Permalink to %s"
+msgstr "پیوند به %s"
+
+#: header.php:55
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: image.php:23
+#, php-format
+msgid ""
+"\"%1$s\" - <a href=\"%2$s\" title=\"Link to full-size image\">%3$s &times; "
+"%4$s</a> %5$s <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">"
+"%7$s</a>"
+msgstr ""
+
+#: image.php:108
+msgid "&larr; Previous image"
+msgstr "&larr; تصویر قبلی"
+
+#: image.php:109
+msgid "Next image &rarr;"
+msgstr "تصویر بعدی &rarr;"
+
+#: inc/customizer.php:30
+msgid "Layout Options"
+msgstr "تنظیمات چیدمان"
+
+#: inc/customizer.php:37
+msgid "Excerpt Options"
+msgstr "تنظیمات خلاصه"
+
+#: inc/customizer.php:44
+msgid "General Options"
+msgstr "تنظیمات عمومی"
+
+#: inc/customizer.php:60
+msgid "Post Excerpts"
+msgstr "خلاصه پست"
+
+#: inc/customizer.php:65
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: inc/customizer.php:66
+msgid "Enabled"
+msgstr "فعال"
+
+#: inc/customizer.php:83
+msgid "Generate One-Sentence Excerpts"
+msgstr "تولید خلاصه یک جمله ای"
+
+#: inc/customizer.php:101
+msgid "Always Show Full Content for First Post"
+msgstr "نمایش همیشگی محتوای کامل برای اولین پست"
+
+#: inc/customizer.php:119
+msgid "Show Post Thumbnails"
+msgstr "نمایش تصاویر بند انگشتی نوشته"
+
+#: inc/customizer.php:137
+msgid "Show Post Word Count in Entry Meta"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Show Post Date in Entry Meta"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Show Widgets on Single Posts"
+msgstr "نمایش ابزارک در تک نوشته ها"
+
+#: inc/customizer.php:191
+msgid "Show Nav Menu on Single Posts"
+msgstr "نمایش فهرست در تک نوشته ها"
+
+#: inc/customizer.php:209
+msgid "Show Updated Date on Single Posts"
+msgstr "نمایش تاریخ بروز رسانی در تک نوشته ها"
+
+#: inc/customizer.php:227
+msgid "Show Author Card on Single Posts"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Single-Column Layout"
+msgstr "صفحه بندی تک ستون"
+
+#: inc/customizer.php:263
+msgid "Enable Multi-Author Mode"
+msgstr "فعال کردن حالت چند نویسنده"
+
+#: inc/customizer.php:281
+msgid "Show Page Load Progress Bar"
+msgstr ""
+
+#: inc/customizer.php:299
+msgid "Auto-Set Featured Image as Post Cover"
+msgstr "تنظیم خودکار تصویر شاخص به عنوان کاور نوشته"
+
+#: inc/customizer.php:317
+msgid "Overlay Post Title on Post Cover"
+msgstr "نمایش عنوان مطلب بر روی تصویر شاخص"
+
+#: inc/customizer.php:335
+msgid "Show Full Name in Comment Reply-to"
+msgstr "نمایش نام کامل در پاسخ به دیدگاه"
+
+#: inc/customizer.php:353
+msgid "Comments Call to Action"
+msgstr "فراخوانی برای نوشتن دیدگاه"
+
+#: inc/customizer.php:366
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: inc/customizer.php:371
+msgid "Comment Form Background Color"
+msgstr "رنگ پس زمینه فرم دیدگاه"
+
+#: inc/customizer.php:376
+msgid "Comment Form Text Color"
+msgstr "رنگ متن فرم دیدگاه"
+
+#: inc/customizer.php:381
+msgid "Link Color"
+msgstr "رنگ پیوند"
+
+#: inc/customizer.php:386
+msgid "Title and Header Text Color"
+msgstr "رنگ متن عنوان و سربرگ"
+
+#: inc/customizer.php:391
+msgid "Primary Meta Text Color"
+msgstr "رنگ متن اطلاعات اصلی"
+
+#: inc/customizer.php:396
+msgid "Secondary Meta Text Color"
+msgstr "رنگ متن اطلاعات ثانویه"
+
+#: inc/template-tags.php:42
+msgid "Post navigation"
+msgstr "ناوبری نوشته"
+
+#: inc/template-tags.php:48
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:49
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:60
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "‫<span class=\"meta-nav\">&larr;</span> نوشته های قدیمی تر"
+
+#: inc/template-tags.php:64
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "نوشته های جدیدتر <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:96
+msgid " - Your comment is awaiting moderation."
+msgstr " - دیدگاه شما در انتظار تایید است."
+
+#. translators: 1: date
+#: inc/template-tags.php:108 inc/template-tags.php:158
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: inc/template-tags.php:218 inc/template-tags.php:249
+#: inc/template-tags.php:261
+#, php-format
+msgid "View all posts by %s"
+msgstr "نمایش تمام پست های %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:235
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:324
+msgid "Continue Reading &rarr;"
+msgstr "ادامه مطلب &rarr;"
+
+#: inc/template-tags.php:341
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "ادامه مطلب <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:413
+#, php-format
+msgid "Page %s"
+msgstr "برگه %s"
+
+#: inc/template-tags.php:441
+#, php-format
+msgid "View all posts in %s"
+msgstr "مشاهده تمام پست ها در %s"
+
+#: inc/template-tags.php:507 inc/template-tags.php:552
+msgid "Published"
+msgstr "منتشر شده"
+
+#: inc/template-tags.php:516 inc/template-tags.php:561
+msgid "Updated"
+msgstr "بروزرسانی شد"
+
+#: inc/template-tags.php:588
+#, php-format
+msgid "%1$s Words"
+msgstr "‫%1$s کلمه"
+
+#: inc/template-tags.php:681 inc/template-tags.php:706
+#: inc/template-tags.php:730
+#, php-format
+msgid "this is page <strong>%1$s</strong> of <strong>%2$s</strong>"
+msgstr "این صفحه <strong>%1$s </strong> از <strong>%2$s </strong> است"
+
+#: inc/template-tags.php:682
+#, php-format
+msgid "Found one search result for <strong>%2$s</strong>."
+msgid_plural "Found %1$s search results for <strong>%2$s</strong> (%3$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:709
+#, php-format
+msgid "There is one post filed in <strong>%2$s</strong>."
+msgid_plural "There are %1$s posts filed in <strong>%2$s</strong> (%3$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:711
+#, php-format
+msgid "There is one post tagged <strong>%2$s</strong>."
+msgid_plural "There are %1$s posts tagged <strong>%2$s</strong> (%3$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:737
+#, php-format
+msgid "There was one post published in %2$s."
+msgid_plural "There were %1$s posts published in %2$s (%3$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:739
+#, php-format
+msgid "There is one post published in %2$s."
+msgid_plural "There are %1$s posts published in %2$s (%3$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:742
+#, php-format
+msgid "There was one post published on %2$s."
+msgid_plural "There were %1$s posts published on %2$s (%3$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:749
+#, php-format
+msgid "There was one post published in the month of %2$s."
+msgid_plural "There were %1$s posts published in %2$s (%3$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:754
+#, php-format
+msgid "There was one post published in %2$s %3$s."
+msgid_plural "There were %1$s posts published in %2$s %3$s (%4$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:849
+msgid "Related Content by Tag"
+msgstr "مطالب مرتبط با برچسب"
+
+#: page_archive-template.php:49
+msgid "Yearly Archives"
+msgstr "بایگانی سالانه"
+
+#: page_archive-template.php:51
+msgid "Select Year"
+msgstr "انتخاب سال"
+
+#: page_archive-template.php:57
+msgid "Monthly Archives"
+msgstr "بایگانی ماهانه"
+
+#: page_archive-template.php:59
+msgid "Select Month"
+msgstr "انتخاب ماه"
+
+#: page_archive-template.php:65 searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "جستجو"
+
+#: page_archive-template.php:69
+msgid "Explore by Tag"
+msgstr "کاوش بر اساس برچسب"
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "جستجو &hellip;"
+
+#: sidebar.php:28
+msgid "Meta"
+msgstr "اطلاعات"
+
+#. Theme Name of the plugin/theme
+msgid "Independent Publisher"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://independentpublisher.me/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Independent Publisher is a beautiful reader-focused WordPress theme, for "
+"you. Clean, responsive, and mobile-ready, it gets out of your way and lets "
+"you share what you create. Full support for all Post Formats, HTML5-ready, "
+"and includes Schema.org markup. This theme is ideal for both single-author "
+"and multi-author blogs."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Raam Dev"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://raamdev.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "One-Column, No Nav Bar"
+msgstr ""

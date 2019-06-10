@@ -49,10 +49,13 @@ Thanks to the following contributors for providing translation files:
 - Turkish (contributed by @pekermert; https://github.com/pekermert)
 - Italian (contributed by @kOoLiNuS; https://github.com/kOoLiNuS)
 - Armenian (contributed by @hanumanum; https://github.com/hanumanum)
+- Farsi (contributed by @KamranKhorsandi; https://github.com/KamranKhorsandi)
 */
 
 /* =Reset
 -------------------------------------------------------------- */
+
+@import "rtl-font.css";
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -75,7 +78,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 html {
 	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
-	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	font-size: 55%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
@@ -145,12 +148,10 @@ textarea {
 	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-family: serif;
 	line-height: 1.5;
 }
 
 select {
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 13px !important; /* webkit annoyingly only lets <select> elements have a font-size of either 9px, 11px or 13px; forcing this to 13px maintains consistency */
 }
 
@@ -207,7 +208,6 @@ dfn, cite, em, i {
 blockquote {
 	margin-right: 1em;
 	font-style: italic;
-	font-family: Georgia, "Bitstream Charter", serif;
 	border-right: 3px solid;
 	border-color: #57ad68;
 	padding-right: 20px;
@@ -219,7 +219,6 @@ blockquote cite {
 
 blockquote h1, blockquote h2, blockquote h3, blockquote h4 {
 	font-weight: normal;
-	font-family: Georgia, "Bitstream Charter", serif;
 }
 
 address {
@@ -317,7 +316,6 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-decoration: none;
@@ -498,7 +496,6 @@ img.aligncenter {
 .main-navigation a {
 	text-decoration: none;
 	font-size: 15px;
-	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
 .main-navigation ul ul {
@@ -727,7 +724,6 @@ Accessibility
 
 .enhanced-excerpts .enhanced-excerpt-read-more a {
 	text-align: left;
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.4em;
 	color: #57ad68;
 }
@@ -748,7 +744,6 @@ Accessibility
 .entry-summary .subtitle {
 	font-style: italic;
 	font-weight: normal;
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.3em;
 	line-height: 1.2em;
 	margin-top: -5px;
@@ -840,7 +835,6 @@ Accessibility
 
 .format-chat .entry-content,
 .format-chat .entry-summary {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 	background: #eee;
 	padding: 20px 20px 10px 20px;
 	margin-bottom: 2em;
@@ -1141,7 +1135,7 @@ object {
 }
 
 ol.commentlist {
-	margin-left: 0px;
+	margin-right: 0px;
 	font-size: 90%;
 }
 
@@ -1262,14 +1256,12 @@ ol.commentlist .avatar {
 }
 
 #pinglist {
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
 	border-top: 1px solid #eee;
 	padding-top: 20px;
 	margin-top: 80px;
-
 }
 
 ul.pinglist {
@@ -1320,11 +1312,9 @@ ul.pinglist {
 	border-top: 1px solid #eee;
 	padding-top: 10px;
 	display: inline-block;
-	font-family: sans-serif;
 }
 
 .taglist {
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -1377,7 +1367,6 @@ ul.taglist {
 .comment-form-subscriptions label,
 .comment-form-reply-title {
 	margin-left: 5px;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	color: #b3b3b1;
 	display: block;
 	font-size: 16px;
@@ -1447,7 +1436,6 @@ ul.taglist {
 }
 
 #cancel-comment-reply-link {
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
 	font-size: 80%;
 	letter-spacing: 0px;
@@ -1494,7 +1482,7 @@ ul.taglist {
 }
 
 .entry-meta #share-comment-button {
-	text-align: left;
+	text-align: right;
 }
 
 #respond {
@@ -1700,13 +1688,8 @@ body {
 	text-align: center;
 }
 
-#infinite-footer .blog-info {
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-}
-
 #infinite-footer .blog-credits {
 	color: #b3b3b1;
-	font-family: sans-serif;
 	font-weight: 100;
 }
 #infinite-footer .blog-info a:hover {
@@ -1732,7 +1715,6 @@ h4,
 h5,
 h6 {
 	margin: 20px 0;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	color: #333332;
 	letter-spacing: -1px;
 	font-weight: 700;
@@ -1889,7 +1871,6 @@ article.first-post {
 .entry-meta a {
 	color: #b3b3b1;
 	font-size: 13px;
-	font-family: sans-serif;
 	font-weight: 100;
 	font-style: normal;
 	text-align: left;
@@ -1944,7 +1925,6 @@ article.first-post {
 	clear: right;
 	margin-right: -220px;
 	text-align: left;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
 
@@ -1988,7 +1968,6 @@ article.first-post {
 }
 
 .site-info {
-	font-family: sans-serif;
 	font-weight: 100;
 }
 
@@ -2351,7 +2330,6 @@ table th {
 .page.post-cover-overlay-post-title .post-cover-title-head .entry-subtitle {
     font-weight: lighter;
     padding: 5px 0 10px;
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
 }
 .single.post-cover-overlay-post-title .post-cover-title-head .entry-title-meta,
