@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Independent Publisher\n"
-"POT-Creation-Date: 2019-06-10 12:08+0430\n"
-"PO-Revision-Date: 2019-06-10 14:26+0430\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2019-06-10 17:33+0430\n"
+"PO-Revision-Date: 2019-06-10 17:34+0430\n"
+"Last-Translator: Kamran Khorsandi\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Basepath: ..\n"
-"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -87,8 +87,8 @@ msgstr "بایگانی"
 #, php-format
 msgid "1 Comment"
 msgid_plural "%1$s Comments"
-msgstr[0] "%1$s دیدگاه"
-msgstr[1] "1 دیدگاه"
+msgstr[0] "1 ‫دیدگاه"
+msgstr[1] "‫%1$s دیدگاه"
 
 #: comments.php:49 comments.php:70
 msgid "Comment navigation"
@@ -500,8 +500,8 @@ msgstr[1] ""
 #, php-format
 msgid "There was one post published in %2$s."
 msgid_plural "There were %1$s posts published in %2$s (%3$s)."
-msgstr[0] "‫%1$s نوشته در  %2$s (%3$s) منتشر شده است."
-msgstr[1] "یک نوشته در %2$s منتشر شده است."
+msgstr[0] "‫یک نوشته در %2$s منتشر شده است."
+msgstr[1] "‫‫%1$s نوشته در  %2$s (%3$s) منتشر شده است."
 
 #: inc/template-tags.php:739
 #, php-format
@@ -528,8 +528,8 @@ msgstr[1] ""
 #, php-format
 msgid "There was one post published in %2$s %3$s."
 msgid_plural "There were %1$s posts published in %2$s %3$s (%4$s)."
-msgstr[0] "‫‫%1$s نوشته در   %2$s %3$s (%4$s) منتشر شده است."
-msgstr[1] "‫یک نوشته در %2$s %3$s منتشر شده است."
+msgstr[0] "‫‫یک نوشته در %2$s %3$s منتشر شده است."
+msgstr[1] "‫‫‫%1$s نوشته در   %2$s %3$s (%4$s) منتشر شده است."
 
 #: inc/template-tags.php:849
 msgid "Related Content by Tag"
