@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Independent Publisher\n"
-"POT-Creation-Date: 2019-06-09 18:33+0430\n"
-"PO-Revision-Date: 2019-06-10 11:13+0430\n"
+"POT-Creation-Date: 2019-06-10 12:08+0430\n"
+"PO-Revision-Date: 2019-06-10 14:26+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -30,6 +30,8 @@ msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
+"به نظر میرسد آدرسی که وارد کرده اید اشتباه است. میتوانید از لینک های زیر و "
+"یا قسمت جست و جو استفاده کنید؟"
 
 #: 404.php:29 page_archive-template.php:33
 msgid "Most Used Categories"
@@ -85,7 +87,7 @@ msgstr "بایگانی"
 #, php-format
 msgid "1 Comment"
 msgid_plural "%1$s Comments"
-msgstr[0] "‫%1$s دیدگاه"
+msgstr[0] "%1$s دیدگاه"
 msgstr[1] "1 دیدگاه"
 
 #: comments.php:49 comments.php:70
@@ -98,7 +100,7 @@ msgstr "&larr; دیدگاه های قدیمی"
 
 #: comments.php:52 comments.php:73
 msgid "Newer Comments &rarr;"
-msgstr "&rarr; دیدگاه های جدید"
+msgstr "دیدگاه های جدیدتر &rarr;"
 
 #: comments.php:83
 msgid "Comments are closed."
@@ -320,7 +322,7 @@ msgstr ""
 
 #: inc/customizer.php:155
 msgid "Show Post Date in Entry Meta"
-msgstr ""
+msgstr "نمایش تاریخ انتشار در اطلاعات نوشته"
 
 #: inc/customizer.php:173
 msgid "Show Widgets on Single Posts"
@@ -336,7 +338,7 @@ msgstr "نمایش تاریخ بروز رسانی در تک نوشته ها"
 
 #: inc/customizer.php:227
 msgid "Show Author Card on Single Posts"
-msgstr ""
+msgstr "نمایش مشخصات نویسنده در تک نوشته ها"
 
 #: inc/customizer.php:245
 msgid "Single-Column Layout"
@@ -498,8 +500,8 @@ msgstr[1] ""
 #, php-format
 msgid "There was one post published in %2$s."
 msgid_plural "There were %1$s posts published in %2$s (%3$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "‫%1$s نوشته در  %2$s (%3$s) منتشر شده است."
+msgstr[1] "یک نوشته در %2$s منتشر شده است."
 
 #: inc/template-tags.php:739
 #, php-format
@@ -526,8 +528,8 @@ msgstr[1] ""
 #, php-format
 msgid "There was one post published in %2$s %3$s."
 msgid_plural "There were %1$s posts published in %2$s %3$s (%4$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "‫‫%1$s نوشته در   %2$s %3$s (%4$s) منتشر شده است."
+msgstr[1] "‫یک نوشته در %2$s %3$s منتشر شده است."
 
 #: inc/template-tags.php:849
 msgid "Related Content by Tag"

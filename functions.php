@@ -897,7 +897,7 @@ if ( ! function_exists( 'independent_publisher_post_word_count' ) ) :
 	function independent_publisher_post_word_count() {
 		global $post;
 		$content = get_post_field( 'post_content', $post->ID );
-		$count   = str_word_count( strip_tags( $content ) );
+		$count   = is_rtl() ? count(preg_split('~[\p{Z}\p{P}]+~u', $content, null, PREG_SPLIT_NO_EMPTY)) : str_word_count( strip_tags( $content ) );
 
 		return number_format( $count );
 	}

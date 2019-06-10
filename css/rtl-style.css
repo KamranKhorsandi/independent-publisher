@@ -328,7 +328,7 @@ input[type="submit"] {
 	border-radius: 3px;
 	background: #57ad68; /* Old browsers */
 	background: -moz-linear-gradient(top, #57ad68 60%, #57ad68 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #57ad68), color-stop(100%, #57ad68)) !important; /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #57ad68), color-stop(100%, #57ad68)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #57ad68 60%, #57ad68 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #57ad68 60%, #57ad68 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #57ad68 60%, #57ad68 100%); /* IE10+ */
@@ -1521,7 +1521,7 @@ ul.taglist {
 
 body {
 	color: #000000;
-	font: 1.9em Georgia, "Times New Roman", Times, serif;
+	font-size: 1.9em;
 	line-height: 1.5;
 }
 
@@ -1578,7 +1578,6 @@ body {
 	font-size: 13px;
 	font-family: inherit;
 	line-height: 1.4;
-	font-style: italic;
 	letter-spacing: inherit;
 	font-weight: inherit;
 	margin-top: 5px;
@@ -2371,7 +2370,7 @@ table th {
 .screen-reader-text {
 	position: absolute;
 	top: -9999em;
-	left: -9999em;
+	right: -9999em;
 }
 
 #menu-social ul {
