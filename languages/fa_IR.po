@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Independent Publisher\n"
 "POT-Creation-Date: 2019-06-10 17:33+0430\n"
-"PO-Revision-Date: 2019-06-10 17:34+0430\n"
+"PO-Revision-Date: 2019-06-13 02:22+0430\n"
 "Last-Translator: Kamran Khorsandi\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -108,7 +108,7 @@ msgstr "دیدگاه ها بسته شده است."
 
 #: comments.php:100 content.php:118
 msgid "Webmentions"
-msgstr ""
+msgstr "‫وب منش ها"
 
 #: content-none.php:13 no-results.php:14
 msgid "Nothing Found"
@@ -119,18 +119,23 @@ msgstr "موردی یافت نشد"
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"آماده ارسال اولین پست خود هستید؟ <a href=\"%1$s\">از اینجا شروع کنید</a>."
 
 #: content-none.php:24 no-results.php:25
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"با عرض پوزش، اما هیچ چیز مطابق با شرایط جستجوی شما نبود. لطفا با برخی از "
+"کلمات کلیدی مختلف دوباره امتحان کنید."
 
 #: content-none.php:30 no-results.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"به نظر می رسد ما نمی توانیم چیزی را پیدا کنیم که به دنبال آن هستید. شاید "
+"جستجو بتواند کمک کند."
 
 #: content-page.php:34 content-single.php:65 page_one-column-template.php:46
 msgid "Next page &rarr;"
@@ -152,7 +157,7 @@ msgstr "ویرایش"
 
 #: content.php:118
 msgid "Webmention"
-msgstr ""
+msgstr "وب منشن"
 
 #: content.php:124 functions.php:493
 msgid "Comment"
@@ -271,6 +276,8 @@ msgid ""
 "%4$s</a> %5$s <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">"
 "%7$s</a>"
 msgstr ""
+"‫“%1$s” - <a href=“%2$s” title=“پیوند به سایز اصلی تصویر”>%3$s &times; %4$s</"
+"a> %5$s <a href=“%6$s” title=“بازگشت به %7$s” rel=“gallery”>%7$s</a>"
 
 #: image.php:108
 msgid "&larr; Previous image"
@@ -318,7 +325,7 @@ msgstr "نمایش تصاویر بند انگشتی نوشته"
 
 #: inc/customizer.php:137
 msgid "Show Post Word Count in Entry Meta"
-msgstr ""
+msgstr "نمایش تعداد کلمات نوشته در اطلاعات نوشته"
 
 #: inc/customizer.php:155
 msgid "Show Post Date in Entry Meta"
@@ -350,7 +357,7 @@ msgstr "فعال کردن حالت چند نویسنده"
 
 #: inc/customizer.php:281
 msgid "Show Page Load Progress Bar"
-msgstr ""
+msgstr "نمایش نوار لودینگ برای بارگزاری صفحه"
 
 #: inc/customizer.php:299
 msgid "Auto-Set Featured Image as Post Cover"
@@ -479,50 +486,50 @@ msgstr "این صفحه <strong>%1$s </strong> از <strong>%2$s </strong> اس�
 #, php-format
 msgid "Found one search result for <strong>%2$s</strong>."
 msgid_plural "Found %1$s search results for <strong>%2$s</strong> (%3$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "یک نتیجه برای جستجوی <strong>%2$s</strong> پیدا شد."
+msgstr[1] "‫%1$s نتیجه برای جستجوی <strong>%2$s</strong>  (%3$s) پیدا شد."
 
 #: inc/template-tags.php:709
 #, php-format
 msgid "There is one post filed in <strong>%2$s</strong>."
 msgid_plural "There are %1$s posts filed in <strong>%2$s</strong> (%3$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "‫یک نوشته برای <strong>%2$s</strong> وجود دارد."
+msgstr[1] "‫‫%1$s نوشته برای <strong>%2$s</strong> (%3$s) وجود دارد."
 
 #: inc/template-tags.php:711
 #, php-format
 msgid "There is one post tagged <strong>%2$s</strong>."
 msgid_plural "There are %1$s posts tagged <strong>%2$s</strong> (%3$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "یک نوشته با تگ <strong>%2$s</strong> وجود دارد."
+msgstr[1] "‫%1$s نوشته با تگ <strong>%2$s</strong> (%3$s) وجود دارد."
 
 #: inc/template-tags.php:737
 #, php-format
 msgid "There was one post published in %2$s."
 msgid_plural "There were %1$s posts published in %2$s (%3$s)."
 msgstr[0] "‫یک نوشته در %2$s منتشر شده است."
-msgstr[1] "‫‫%1$s نوشته در  %2$s (%3$s) منتشر شده است."
+msgstr[1] "‫‫‫‫%1$s نوشته منتشر شده در  %2$s (%3$s) وجود دارد."
 
 #: inc/template-tags.php:739
 #, php-format
 msgid "There is one post published in %2$s."
 msgid_plural "There are %1$s posts published in %2$s (%3$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "‫‫یک نوشته در %2$s منتشر شده است."
+msgstr[1] "‫‫‫%1$s نوشته منتشر شده در  %2$s (%3$s) وجود دارد."
 
 #: inc/template-tags.php:742
 #, php-format
 msgid "There was one post published on %2$s."
 msgid_plural "There were %1$s posts published on %2$s (%3$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "‫‫یک نوشته در %2$s منتشر شده است."
+msgstr[1] "‫‫‫‫%1$s نوشته منتشر شده در  %2$s (%3$s) وجود دارد."
 
 #: inc/template-tags.php:749
 #, php-format
 msgid "There was one post published in the month of %2$s."
 msgid_plural "There were %1$s posts published in %2$s (%3$s)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "‫‫‫یک نوشته منتشر شده در ماه %2$s وجود دارد."
+msgstr[1] "‫‫‫‫%1$s نوشته منتشر شده در ماه %2$s (%3$s) وجود دارد."
 
 #: inc/template-tags.php:754
 #, php-format
@@ -588,6 +595,11 @@ msgid ""
 "and includes Schema.org markup. This theme is ideal for both single-author "
 "and multi-author blogs."
 msgstr ""
+"‫Independent Publisher یک قالب وردپرس برای تمرکز بیشتر بر روی خوانایی است. "
+"ساده، واکنشگرا با پشتیبانی از موبایل. این قالب به شما اجازه می دهد آنچه را "
+"که ایجاد می کنید به سادگی به اشتراک بگذارید. پشتیبانی کامل از تمام فرمت های "
+"نوشته وردپرس، پشتیبانی از HTML5، و شامل نشانه گذاری Schema.org. همچنین این "
+"قالب برای وبلاگ تک نویسنده و چند نویسنده ایده آل است."
 
 #. Author of the plugin/theme
 msgid "Raam Dev"
@@ -599,4 +611,4 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "One-Column, No Nav Bar"
-msgstr ""
+msgstr "یک ستونه، بدون نوار منو"
