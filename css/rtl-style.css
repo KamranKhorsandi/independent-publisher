@@ -830,7 +830,8 @@ Accessibility
 }
 
 .format-standard .entry-title {
-	width: 90%;
+	width: 100%;
+	line-height: 56px;
 }
 
 .format-chat .entry-content,
@@ -1252,7 +1253,7 @@ ol.commentlist .avatar {
 	padding-left: 15px;
 	padding-right: 15px;
 	height: 3.4em;
-	line-height: 50px;
+	line-height: 40px;
 }
 
 #pinglist {
@@ -1638,7 +1639,7 @@ body {
 }
 
 .widget-area ul li a {
-	line-height: 1.2;
+	line-height: 25px;
 }
 
 .blogroll li a {
@@ -1716,7 +1717,7 @@ h6 {
 	margin: 20px 0;
 	color: #333332;
 	letter-spacing: -1px;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 1;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
